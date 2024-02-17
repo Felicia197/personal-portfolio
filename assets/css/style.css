@@ -829,6 +829,15 @@ main {
   line-height: 1.6;
 }
 
+.timeline-text a {
+  color: #cbc554; /* Set your desired color for the link */
+  text-decoration: underline; /* Add underline or other styles if desired */
+}
+
+.timeline-text a:hover {
+  color: #bbc23dc5; /* Set a different color for hover state if desired */
+}
+
 
 /**
  * skills 
@@ -1879,4 +1888,24 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   .timeline-text { max-width: 700px; }
 
+}
+
+
+/* Felicia Used
+
+  /**
+	 * Download Link
+	 */
+
+
+.download-link {
+  cursor: pointer;
+  color: #FFD169;
+  font-size: small;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.download-link:hover {
+  color: #FFD169;
 }
