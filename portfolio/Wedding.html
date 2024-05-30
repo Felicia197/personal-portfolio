@@ -30,12 +30,19 @@
     <style>
         .image-container {
             display: flex;
-            justify-content: space-between;
+            justify-content: space-between; /* Space images evenly */
+            margin: 0 auto; /* Center the container horizontally */
         }
 
         .image-container img {
             max-width: 48%; /* Adjust as needed */
             height: auto;
+        }
+
+        @media (min-width: 768px) { /* Adjust breakpoint as needed */
+            .image-container img {
+                max-width: 40%; /* Adjust for wider screens */
+            }
         }
     </style>
 
@@ -106,7 +113,7 @@
 
                 </li>
 
-                <li class="contact-item">
+                <!-- <li class="contact-item">
 
                     <div class="icon-box">
                     <ion-icon name="calendar-outline"></ion-icon>
@@ -118,7 +125,7 @@
                     <time datetime="2001-07-19">July 19</time>
                     </div>
 
-                </li>
+                </li> -->
 
                 <li class="contact-item">
 
@@ -155,23 +162,17 @@
             <ul class="social-list">
 
                 <li class="social-item">
-                    <a href="#" class="social-link">
-                    <ion-icon name="logo-facebook"></ion-icon>
-                    </a>
+                  <a href="https://www.linkedin.com/in/shuang-yin-ng-ab000a239/" class="social-link">
+                    <ion-icon name="logo-linkedin"></ion-icon>
+                  </a>
                 </li>
-
+      
                 <li class="social-item">
-                    <a href="#" class="social-link">
-                    <ion-icon name="logo-twitter"></ion-icon>
-                    </a>
+                  <a href="https://github.com/Felicia197" class="social-link">
+                    <ion-icon name="logo-github"></ion-icon>
+                  </a>
                 </li>
-
-                <li class="social-item">
-                    <a href="https://www.instagram.com/veryberrystrawberryy/" class="social-link">
-                    <ion-icon name="logo-instagram"></ion-icon>
-                    </a>
-                </li>
-
+      
             </ul>
 
         </div>
@@ -277,22 +278,22 @@
             <br>
 
             <div class="image-container">
-                <img src="../assets/projects/WeddingPlanning/WeddingPlanning_1.png" alt="Image 1" width="300" style="margin-left: 70px;">
-                <img src="../assets/projects/WeddingPlanning/WeddingPlanning_2.png" alt="Image 2" width="300" style="margin-right: 70px;">       
+                <img src="../assets/projects/WeddingPlanning/WeddingPlanning_1.png" alt="Image 1" width="100%" >
+                <img src="../assets/projects/WeddingPlanning/WeddingPlanning_2.png" alt="Image 2" width="100%" >       
             </div>
 
             <br>
 
             <div class="image-container">
-                <img src="../assets/projects/WeddingPlanning/WeddingPlanning_3.png" alt="Image 3" width="300" style="margin-left: 70px;">
-                <img src="../assets/projects/WeddingPlanning/WeddingPlanning_4.png" alt="Image 4" width="300" style="margin-right: 70px;">
+                <img src="../assets/projects/WeddingPlanning/WeddingPlanning_3.png" alt="Image 3" width="100%" >
+                <img src="../assets/projects/WeddingPlanning/WeddingPlanning_4.png" alt="Image 4" width="100%" >
             </div>
 
             <br>
 
             <div class="image-container">
-                <img src="../assets/projects/WeddingPlanning/WeddingPlanning_5.png" alt="Image 5" width="300" style="margin-left: 70px;">
-                <img src="../assets/projects/WeddingPlanning/WeddingPlanning_6.png" alt="Image 6" width="300" style="margin-right: 70px;">
+                <img src="../assets/projects/WeddingPlanning/WeddingPlanning_5.png" alt="Image 5" width="100%" >
+                <img src="../assets/projects/WeddingPlanning/WeddingPlanning_6.png" alt="Image 6" width="100%" >
             </div>
           
         </section>
